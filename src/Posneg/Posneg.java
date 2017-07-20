@@ -26,9 +26,9 @@ public class Posneg {
 	public static void main(String args[]) {
 
 		Posneg case1 = new Posneg();
-		boolean result1 = case1.posNeg(1, -1, false);
+		boolean result1 = case1.posNeg(1, -1, true);
 		Posneg case2 = new Posneg();
-		boolean result2 = case2.posNeg(1, -1, true);
+		boolean result2 = case2.posNeg(1, -1, false);
 		Posneg case3 = new Posneg();
 		boolean result3 = case3.posNeg(1, 1, false);
 		Posneg case4 = new Posneg();
@@ -42,8 +42,8 @@ public class Posneg {
 		Posneg case8 = new Posneg();
 		boolean result8 = case8.posNeg(-1, 1, true);
 
-		boolean Expected1 = new Boolean(true);
-		boolean Expected2 = new Boolean(false);
+		boolean Expected1 = new Boolean(false);
+		boolean Expected2 = new Boolean(true);
 		boolean Expected3 = new Boolean(false);
 		boolean Expected4 = new Boolean(false);
 		boolean Expected5 = new Boolean(false);
